@@ -1,12 +1,12 @@
 FROM golang:1.11.5-alpine3.8
 
 # Github labels
-LABEL "com.github.actions.name"="Hugo Action"
+LABEL "com.github.actions.name"="Action Hugo"
 LABEL "com.github.actions.description"="Run Hugo build"
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/kevvurs/seedshare-blog"
+LABEL "repository"="https://github.com/kevvurs/action-hugo"
 LABEL "homepage"="https://www.seedshare.io"
 LABEL "maintainer"="hello@seedshare.io"
 
