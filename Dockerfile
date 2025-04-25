@@ -16,7 +16,7 @@ RUN apk add --no-cache gcc
 RUN apk add --no-cache musl-dev
 RUN apk add --no-cache git
 
-# Add hugo v0.53
+# Add hugo v0.146.7
 RUN git clone --branch v0.146.7 https://github.com/gohugoio/hugo.git /hugo
 RUN cd /hugo; go install
 
